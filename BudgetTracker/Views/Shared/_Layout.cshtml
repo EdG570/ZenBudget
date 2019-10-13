@@ -40,5 +40,20 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+    
+    @*<script>
+    $.ajax({
+        type: "GET",
+        url: "/api/Test/",
+        contentType: "application/json;charset=utf-8",
+        format: "json",
+        success: function (data) {
+            console.log(data);
+        },
+        error: function () {
+            //ajaxAlerts.showError();
+        }
+    });
+    </script>*@
 </body>
 </html>
