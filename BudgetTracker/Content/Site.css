@@ -1,24 +1,75 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿/* ------------ BASE --------------- */
+
+html, body {
+    background-color: #fff;
+    color: #333;
+    box-sizing: border-box;
+    background-color: #1B1C3A;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: 'Roboto', sans-serif;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.form {
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 1em;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.pink {
+    background-color: #B93E68;
+    color: #fff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* ------------- NAV --------------------*/
+
+nav.navbar {
+    margin-bottom: 1em;
+}
+
+/* ------------ FORMS --------------- */
+
+.form h5 {
+    padding: 0.5em 0;
+    color: #fff;
+}
+
+
+.form-inactive {
+    color:rgba(255, 255, 255, 0.3) !important;
+}
+
+.pink-bot-border {
+    border-bottom: 1px solid #B93E68;
+}
+
+.form-label {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.sign-up-btn {
+    margin-top: 2em;
+}
+
+/* ------------ LOGO --------------- */
+
+.logo {
+    width: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+}
+
+.logo-pink {
+    color: #B93E68;
+}
+
+.logo-white {
+    color: #fff;
 }
